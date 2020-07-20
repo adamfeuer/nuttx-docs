@@ -18,17 +18,18 @@ This book is meant to be an experiment in replacing the `Apache NuttX Documentat
 with something easier to navigate, extend, and modify.
 
 
-User Guide
-----------
+NuttX Documentation
+-------------------
 
 .. toctree::
    :maxdepth: 2
 
    user/intro
+
+   nuttx/main
+
    user/resources
-
    user/contributing
-
 
 Indices and tables
 ==================

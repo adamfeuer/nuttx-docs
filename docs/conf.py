@@ -41,7 +41,10 @@ release = about['__version__']
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = [
+    'recommonmark',
+    'sphinx_rtd_theme',
+]
 
 master_doc = 'index'
 
@@ -59,18 +62,14 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 html_theme_options = {
-    'show_powered_by': False,
-    'github_user': 'adamfeuer',
-    'github_repo': 'nuttx-docs',
-    'github_banner': False,
-    'show_related': False,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
